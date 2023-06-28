@@ -1,0 +1,2 @@
+include app/template.c
+include app/main.c
