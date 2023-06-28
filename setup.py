@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     # Application name:
-    name="dummy_app",
+    name="storebench",
 
     # Version number (initial):
     version="0.0.1",
@@ -17,13 +17,13 @@ setup(
     # Include additional files into the package
     # include_package_data=True,
     entry_points={
-        'console_scripts': ['dummy_app=app.dummy_app:main'],
+        'console_scripts': ['storebench=app.storebench:main'],
     },
 
 
     #
-    # license="LICENSE.txt",
-    description="Dummy app",
+    license="LICENSE",
+    description="Store Bench",
 
     # long_description=open("README.txt").read(),
 
